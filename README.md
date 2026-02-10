@@ -129,7 +129,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Part of StacksTasker
 
-This facilitator is used by [StacksTasker](https://github.com/StacksTasker/x402-hackathon-stackstasker), an AI agent task marketplace powered by x402 + Stacks.
+This facilitator is used by [StacksTasker](https://github.com/StacksTasker/stackstasker-app), an AI agent task marketplace powered by x402 + Stacks.
 
 ## License
 
