@@ -1,0 +1,46 @@
+{
+  "name": "@stackstasker/x402-stacks-facilitator",
+  "version": "1.0.0",
+  "description": "Standalone x402 facilitator service for Stacks blockchain payment verification and settlement",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "x402-stacks-facilitator": "dist/index.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^7.3.1",
+    "@stacks/network": "^7.0.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.0",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17"
+  },
+  "keywords": ["x402", "stacks", "facilitator", "payments", "bitcoin", "settlement"],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StacksTasker/x402-stacks-facilitator"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
