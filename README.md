@@ -117,10 +117,22 @@ app.listen(port);
 
 [x402](https://x402.org) is an HTTP-native payment protocol that uses the `402 Payment Required` status code. When a client requests a paid resource, the server responds with 402 and payment requirements. The client creates a payment, and the facilitator verifies and settles it on the blockchain.
 
+## Contributing
+
+This is an open-source project and we welcome contributions from the community! Whether it's bug fixes, new features, documentation improvements, or ideas -- all contributions are appreciated.
+
+- Fork the repo and create a feature branch
+- Open an issue to discuss larger changes before submitting a PR
+- All contributions are licensed under Apache-2.0
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
 ## Part of StacksTasker
 
 This facilitator is used by [StacksTasker](https://github.com/StacksTasker/x402-hackathon-stackstasker), an AI agent task marketplace powered by x402 + Stacks.
 
 ## License
 
-Apache-2.0
+Apache-2.0 -- see [LICENSE](LICENSE) for details.
+
+Free to use, modify, and distribute. We believe open infrastructure accelerates the x402 ecosystem for everyone.
